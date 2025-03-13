@@ -1,5 +1,7 @@
 # Job Landing Page
 
+[Live Demo](https://job-portal-hazel-seven.vercel.app/)
+
 ## Overview
 Job Landing Page is a modern and dynamic job search platform built with React, Tailwind CSS, and Framer Motion. It offers a seamless user experience for job seekers to find their dream jobs across various categories while enjoying a sleek UI/UX design.
 
