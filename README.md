@@ -1,12 +1,66 @@
-# React + Vite
+# Job Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Job Landing Page is a modern and dynamic job search platform built with React, Tailwind CSS, and Framer Motion. It offers a seamless user experience for job seekers to find their dream jobs across various categories while enjoying a sleek UI/UX design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Enhanced UI/UX** with Glassmorphism and Neumorphism design.
+- 🌙 **Dark/Light Mode Toggle** for a personalized experience.
+- 🔍 **Search and Filter Jobs** by title or category.
+- 🔖 **Bookmark Favorite Jobs** for later reference.
+- 📤 **Resume Upload** feature.
+- 🎯 **Responsive Layout** for mobile, tablet, and desktop views.
+- 📌 **Sticky Navbar** for easy navigation.
+- ✨ **Animated Hero Section** with Framer Motion.
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React.js
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository:
+```bash
+  git clone https://github.com/yourusername/job-landing-page.git
+```
+
+2. Navigate to the project directory:
+```bash
+  cd job-landing-page
+```
+
+3. Install dependencies:
+```bash
+  npm install
+```
+
+4. Run the development server:
+```bash
+  npm run dev
+```
+
+## Usage
+- Search for jobs by title or category.
+- Filter jobs by category.
+- Bookmark jobs for later viewing.
+- Upload your resume for better job applications.
+- Toggle between light and dark mode for better readability.
+
+## Future Improvements
+- 🌐 Add job filtering by location and salary range.
+- 💬 Integrate a chat system for recruiters and applicants.
+- 📅 Implement job application tracking.
+
+## Contributing
+Contributions are welcome! Feel free to open issues and submit pull requests.
+
+## License
+MIT License
+
+---
+
+Enjoy job hunting with JobConnect! 🚀
+
