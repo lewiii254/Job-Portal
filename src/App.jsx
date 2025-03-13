@@ -69,7 +69,7 @@ const JobLandingPage = () => {
   return (
     <div className={`${darkMode ? 'dark bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'} min-h-screen font-sans transition-colors duration-500`}> 
       <nav className="flex justify-between items-center p-4 bg-white dark:bg-gray-800 shadow-md fixed top-0 left-0 right-0 z-50">
-        <h1 className="text-xl font-bold cursor-pointer" onClick={handleRefresh}>JobConnect</h1>
+        <h1 className="text-xl font-bold cursor-pointer" onClick={handleRefresh}>🧾🚀Kareer<span className='text-blue-500'>Connect✔</span></h1>
         <div className="flex items-center gap-4">
           <button onClick={() => setDarkMode(!darkMode)}>
             {darkMode ? <BsSun size={20} /> : <BsMoon size={20} />}
@@ -88,9 +88,9 @@ const JobLandingPage = () => {
           initial={{ opacity: 0, y: -50 }} 
           animate={{ opacity: 1, y: 0 }} 
           transition={{ duration: 0.8 }}>
-          Find Your Dream Job
+          ✨Find Your Dream Job🧾🚀
         </motion.h1>
-        <p className="mb-6">Explore thousands of job opportunities worldwide</p>
+        <p className="mb-6">🔥Explore thousands of job opportunities worldwide✨</p>
         <form onSubmit={handleSearch} className="flex items-center bg-white rounded-lg p-2 w-3/4 md:w-1/2">
           <FiSearch className="text-gray-400 ml-2" />
           <input
